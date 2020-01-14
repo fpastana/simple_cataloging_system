@@ -3,6 +3,6 @@
         <title>Simple Catalog System</title>
     </head>
     <body>
-        Teste
+        Spicy Gourmet Deli Inc API
     </body>
 </html>
