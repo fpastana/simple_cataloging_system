@@ -16,6 +16,17 @@ PS: Prepare the file .env before run the comand below.
 - php artisan key:generate
 - php artisan migrate:refresh --seed
 
+## URLs
+
+In order to buy time, I only used GET requests, even to insert and delete data. Follow the URLs:
+
+- catalog
+- catalog/list_all_products
+- catalog/list_all_product_categories
+- catalog/retrieve_product?sku=DISH234ZFDR
+- catalog/destroy_product?sku=DISH234ZFDR
+- catalog/store_product
+
 ## Thanks
 
 Thanks a million for the opportunity to show my job.
