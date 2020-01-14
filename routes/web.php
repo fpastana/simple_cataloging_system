@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::group(['prefix' => 'catalog'], function(){
+    Route::get('/', 'CatalogController@index')->name('catalog_index');
+});
