@@ -9,11 +9,26 @@
 
 ## About Simple Catalog System
 
-System created for Cataloging
+System created for cataloging
 
 ## Additional info
 
 Is has been using migrations and seeds, so that the prompt commands may run the system perfectly.
+
+## Technology Stack
+
+- [Laravel v6.x](https://laravel.com): This is a PHP MVC Framework.
+- [MYSQL](https://www.mysql.com/): MySQL a Relational Database
+
+# System Requirements
+
+-   PHP v7.1 
+-   Composer
+-   Any Laravel supported database
+-   JavaScript
+-   As the current version is built on Laravel v10.x, all requirements of this version of Laravel MUST be met [as stated here](https://laravel.com/docs/6.x/deployment#server-requirements).
+
+
 
 PS: Prepare the file .env before run the comand below.
 
