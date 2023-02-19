@@ -17,7 +17,7 @@ Is has been using migrations and seeds, so that the prompt commands may run the 
 
 PS: Prepare the file .env before run the comand below.
 
-````
+```
 # php artisan key:generate
 ```
 ```
