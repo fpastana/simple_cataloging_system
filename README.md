@@ -9,7 +9,7 @@
 
 ## About Simple Catalog System
 
-System created for cataloging
+System created for cataloging items
 
 ## Additional info
 
@@ -26,7 +26,7 @@ Is has been using migrations and seeds, so that the prompt commands may run the 
 -   Composer
 -   Any Laravel supported database
 -   JavaScript
--   As the current version is built on Laravel v10.x, all requirements of this version of Laravel MUST be met [as stated here](https://laravel.com/docs/6.x/deployment#server-requirements).
+-   As the current version is built on Laravel v6.x, all requirements of this version of Laravel MUST be met [as stated here](https://laravel.com/docs/6.x/deployment#server-requirements).
 
 
 
