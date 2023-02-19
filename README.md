@@ -9,16 +9,24 @@
 
 ## About Simple Catalog System
 
-As can be seen, I created the system using Laravel. For the database, I used migrations and seeds, so that I am going to put the prompt commands to run the system perfectly. 
+System created for Cataloging
+
+## Additional info
+
+Is has been using migrations and seeds, so that the prompt commands may run the system perfectly.
 
 PS: Prepare the file .env before run the comand below.
 
-- php artisan key:generate
-- php artisan migrate:refresh --seed
+````
+# php artisan key:generate
+```
+```
+# php artisan migrate:refresh --seed
+```
 
 ## URLs
 
-In order to buy time, I only used GET requests, even to insert and delete data. Follow the URLs:
+To save time, It uses only GET requests, even to insert and delete data. Follow the URLs:
 
 - catalog
 - catalog/list_all_products
@@ -26,9 +34,5 @@ In order to buy time, I only used GET requests, even to insert and delete data. 
 - catalog/retrieve_product?sku=DISH234ZFDR
 - catalog/destroy_product?sku=DISH234ZFDR
 - catalog/store_product
-
-## Thanks
-
-Thanks a million for the opportunity to show my job.
 
 
